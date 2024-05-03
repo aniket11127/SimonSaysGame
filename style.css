@@ -1,0 +1,51 @@
+body{
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 5px 0;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.red{
+    background-color: rgb(235, 78, 78);
+}
+.teal{
+    background-color: teal;
+}
+.orange{
+    background-color: orange;
+}
+.violet{
+    background-color: rgb(130, 191, 238);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
